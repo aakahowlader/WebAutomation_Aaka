@@ -8,21 +8,22 @@ public class LearnSwitchCase {
 
     public static void main(String[] args) {
 
-       LearnSwitchCase.foodMenu();
+       //LearnSwitchCase.foodMenu();
+       LearnSwitchCase.foodMenu(7);
 
 
-       String name="James";
-       switch (name){
-           case "James":
-
-       }
+//       String name="James";
+//       switch (name){
+//           case "James":
+//
+//       }
 
     }
 
-    public static void foodMenu(){
-        Scanner input= new Scanner(System.in);
-        System.out.println("Enter your food Serial");
-        int foodSerial = input.nextInt();
+    public static void foodMenu(int foodSerial){
+        //Scanner input= new Scanner(System.in);
+        //System.out.println("Enter your food Serial");
+        //int foodSerial = input.nextInt();
         String foodName;
         switch (foodSerial) {
             case 1:
