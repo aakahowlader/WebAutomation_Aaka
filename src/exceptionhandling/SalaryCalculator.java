@@ -15,15 +15,15 @@ public class SalaryCalculator {
         } catch (Exception exception){
             //exception.printStackTrace();
             //System.out.println("This is Arithmetic Exception");
-            System.out.println("This is Arithmetic Exception. Please use value which is greater than 0");
+            System.out.println("This is Arithmetic Exception. Value should be non Zero");
         }
         return result;
     }
 
-    public int doDivision1(int num1, int num2){
-
-
-    }
+//    public int doDivision1(int num1, int num2){
+//
+//
+//    }
 
 
 
