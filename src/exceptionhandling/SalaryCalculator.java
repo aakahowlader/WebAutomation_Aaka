@@ -1,9 +1,18 @@
 package exceptionhandling;
 
 public class SalaryCalculator {
+    int div;
 
     public static void main(String[] args) {
         SalaryCalculator.doDivision(12,0);
+        SalaryCalculator calculator= new SalaryCalculator();
+        try {
+            calculator.doDivision1(23,0);
+        } catch (Exception e){
+            System.out.println("This is Arithmetic Exception");
+        }
+
+
     }
 
     public static int doDivision(int num1, int num2){
@@ -20,10 +29,11 @@ public class SalaryCalculator {
         return result;
     }
 
-//    public int doDivision1(int num1, int num2){
-//
-//
-//    }
+    public int doDivision1(int num1, int num2) throws Exception{
+        this.div= num1/num2;
+        System.out.println("Division value "+div);
+        return div;
+    }
 
 
 
