@@ -11,9 +11,6 @@ public class Tesla extends FlyingCar implements Car,AutoPilot {
         System.out.println("Tesla Car Information");
     }
 
-
-
-
     public void startCar() {
         System.out.println("Tesla car has start feature");
     }
@@ -32,6 +29,7 @@ public class Tesla extends FlyingCar implements Car,AutoPilot {
 
     public void accelerationCar() {
         System.out.println("Tesla car has Acceleration feature");
+
     }
 
     public void steeringCar() {
@@ -44,6 +42,7 @@ public class Tesla extends FlyingCar implements Car,AutoPilot {
 
     public void navigation() {
         System.out.println("Tesla car has navigation feature");
+
     }
 
     public void cameras() {
